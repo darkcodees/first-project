@@ -122,8 +122,8 @@ def get_youtube_credentials(channel_id=None, channel_name=None):
     
     # Channel name to Drive file ID mapping
     CHANNEL_DRIVE_LINKS = {
-        "CineQuick": "https://drive.google.com/file/d/16J5SXfgSVWCr4u1cdTxmh5PoOoMsibXu/view?usp=drive_link",
-        "PlotPulse": "https://drive.google.com/file/d/1sPaQn8amVx3YIW4qDKexAP1f-V-IUpXE/view?usp=drive_link"
+        "CineQuick": "https://drive.google.com/file/d/1XomXyDtNi88_JoJm3SMCbn519kegOA3R/view?usp=sharing",
+        "PlotPulse": "https://drive.google.com/file/d/1kPOtcZeiezRJna6-6Aqs0xgxUw8-mjtD/view?usp=sharing"
     }
     
     if not channel_name and not channel_id:
@@ -189,8 +189,8 @@ def list_available_youtube_channels():
     """List all channels that have saved YouTube tokens on Google Drive."""
     # Channel token Google Drive links
     CHANNEL_DRIVE_LINKS = {
-        "CineQuick": "https://drive.google.com/file/d/16J5SXfgSVWCr4u1cdTxmh5PoOoMsibXu/view?usp=drive_link",
-        "PlotPulse": "https://drive.google.com/file/d/1sPaQn8amVx3YIW4qDKexAP1f-V-IUpXE/view?usp=drive_link"
+        "CineQuick": "https://drive.google.com/file/d/1XomXyDtNi88_JoJm3SMCbn519kegOA3R/view?usp=sharing",
+        "PlotPulse": "https://drive.google.com/file/d/1kPOtcZeiezRJna6-6Aqs0xgxUw8-mjtD/view?usp=sharing"
     }
     
     print("\nAvailable YouTube Channels:")
